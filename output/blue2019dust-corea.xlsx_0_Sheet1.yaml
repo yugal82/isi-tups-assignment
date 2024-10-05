@@ -1,0 +1,103 @@
+alignments:
+- type: dimension
+  value: header0:1 <-> data0:1
+- type: dimension
+  value: header0:-1 <-> attributes0:-1
+- type: dimension
+  value: header0:1 <-> data1:1
+- type: dimension
+  value: header0:-1 <-> attributes1:-1
+- type: dimension
+  value: header0:-1 <-> data2:-1
+- type: dimension
+  value: header0:-1 <-> data3:-1
+- type: dimension
+  value: data0:1 <-> header0:1
+- type: dimension
+  value: data0:-1 <-> attributes0:-1
+- type: dimension
+  value: data0:1 <-> data1:1
+- type: dimension
+  value: data0:-1 <-> attributes1:-1
+- type: dimension
+  value: data0:-1 <-> data2:-1
+- type: dimension
+  value: data0:-1 <-> data3:-1
+- type: dimension
+  value: attributes0:-1 <-> header0:-1
+- type: dimension
+  value: attributes0:-1 <-> data0:-1
+- type: dimension
+  value: attributes0:-1 <-> data1:-1
+- type: dimension
+  value: attributes0:1 <-> attributes1:1
+- type: dimension
+  value: attributes0:0 <-> data2:0
+- type: dimension
+  value: attributes0:-1 <-> data3:-1
+- type: dimension
+  value: data1:1 <-> header0:1
+- type: dimension
+  value: data1:1 <-> data0:1
+- type: dimension
+  value: data1:-1 <-> attributes0:-1
+- type: dimension
+  value: data1:-1 <-> attributes1:-1
+- type: dimension
+  value: data1:-1 <-> data2:-1
+- type: dimension
+  value: data1:-1 <-> data3:-1
+- type: dimension
+  value: attributes1:-1 <-> header0:-1
+- type: dimension
+  value: attributes1:-1 <-> data0:-1
+- type: dimension
+  value: attributes1:1 <-> attributes0:1
+- type: dimension
+  value: attributes1:-1 <-> data1:-1
+- type: dimension
+  value: attributes1:-1 <-> data2:-1
+- type: dimension
+  value: attributes1:0 <-> data3:0
+- type: dimension
+  value: data2:-1 <-> header0:-1
+- type: dimension
+  value: data2:-1 <-> data0:-1
+- type: dimension
+  value: data2:0 <-> attributes0:0
+- type: dimension
+  value: data2:-1 <-> data1:-1
+- type: dimension
+  value: data2:-1 <-> attributes1:-1
+- type: dimension
+  value: data2:1 <-> data3:1
+- type: dimension
+  value: data3:-1 <-> header0:-1
+- type: dimension
+  value: data3:-1 <-> data0:-1
+- type: dimension
+  value: data3:-1 <-> attributes0:-1
+- type: dimension
+  value: data3:-1 <-> data1:-1
+- type: dimension
+  value: data3:0 <-> attributes1:0
+- type: dimension
+  value: data3:1 <-> data2:1
+preprocessing: []
+resources: xlsx
+variables:
+  attributes0:
+    ObservationData: 2..8, 0..0
+  attributes1:
+    ObservationData: 19..2769, 0..0
+  data0:
+    ObservationData: 1..1, 0..4
+  data1:
+    ObservationData: 9..18, 0..4
+  data2:
+    ObservationData: 2..8, 1..4
+  data3:
+    ObservationData: 19..2769, 1..4
+  header0:
+    ObservationData: 0..0, 0..4
+version: '1'

@@ -1,0 +1,23 @@
+alignments:
+- type: dimension
+  value: header0:-1 <-> attributes0:-1
+- type: dimension
+  value: header0:-1 <-> data0:-1
+- type: dimension
+  value: attributes0:-1 <-> header0:-1
+- type: dimension
+  value: attributes0:0 <-> data0:0
+- type: dimension
+  value: data0:-1 <-> header0:-1
+- type: dimension
+  value: data0:0 <-> attributes0:0
+preprocessing: []
+resources: xlsx
+variables:
+  attributes0:
+    ObservationData: 1..437, 0..1
+  data0:
+    ObservationData: 1..437, 2..8
+  header0:
+    ObservationData: 0..0, 0..8
+version: '1'
