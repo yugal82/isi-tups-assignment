@@ -27,8 +27,8 @@ The inputs are generated using Jupyter notebooks and stored at:
 To run a pipeline, use the following command: ```make run PIPELINE=<pipeline name>```
 Pipelines are defined in the ```./pipelines``` package and use ```./tmp``` as a working directory to download models/data or store outputs.
 
-![alt text](https://github.com/yugal82/isi-tups-assignment/blob/main/data_output_psl.png)
-![alt text](https://github.com/yugal82/isi-tups-assignment/blob/main/file_strucutre.png)
+![alt text](https://github.com/yugal82/isi-tups-assignment/blob/main/data_output_psl.jpg)
+![alt text](https://github.com/yugal82/isi-tups-assignment/blob/main/file_structure.png)
 
 ### Troubleshoot 1: Infersent module:
 - For troubleshooting the infersent module, import from [here](https://github.com/facebookresearch/InferSent/blob/main/models.py) in the tabular_cell_type_classification>src>helpers.py file
